@@ -37,7 +37,7 @@
 ### This kernel supports QEMU's graphic card provided by:
      qemu-system-aarch64 -m virt \
        -kernel arch/arm64/boot/Image.gz \
-       -append "root=vda1 rw" \
+       -append "root=/dev/vda1 rw" \
        -initrd YOUR_INITRD_IMAGE \
        -cpu cortex-a76 \
        -drive if=none,file=YOUR_ROOTFS_IMAGE,format=raw,id=disk
