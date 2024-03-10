@@ -1,5 +1,5 @@
 # Compiling a kernel for QEMU with graphics support
-# This repository shows you how to cross-compile an arm64/aarch64 Kernel for QEMU with graphics support
+## This repository shows you how to cross-compile(on amd64) an arm64/aarch64 Kernel for QEMU with graphics support
 
 ### 1.) We install dependencies:
      apt update -y && apt install -y git bc bison flex libssl-dev make libc6-dev libncurses5-dev crossbuild-essential-arm64
