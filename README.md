@@ -8,7 +8,7 @@
      cd linux
 ### 3.) We make a standard defconfig for arm64
      yes "" | make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- defconfig
-### 4.) We configure it to support a QEMU boot with graphical support
+### 4.) We configure it to support a graphical QEMU boot with:
      scripts/config -e CONFIG_MACVLAN
      scripts/config -e CONFIG_VIRTIO_NET
      scripts/config -e CONFIG_NLMON
